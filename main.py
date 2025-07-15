@@ -38,4 +38,4 @@ async def on_member_join(member):
 keep_alive()
 
 # Run bot using token stored in Replit secret
-client.run(os.getenv("DISCORD_BOT_TOKEN"))
+bot.run(os.getenv("DISCORD_BOT_TOKEN"))
